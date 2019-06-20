@@ -1,0 +1,30 @@
+{
+  "name": "@opperdev/proxygetter",
+  "version": "1.0.0",
+  "description": "Simple nodejs api for getting proxy from gatherproxy.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "proxies",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpperDev/proxygetter.git"
+  },
+  "author": "OpperDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpperDev/proxygetter/issues"
+  },
+  "homepage": "https://github.com/OpperDev/proxygetter#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
+    "file-system": "^2.2.2",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  }
+}
